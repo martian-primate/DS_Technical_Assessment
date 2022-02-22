@@ -30,7 +30,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
 
 #Uploading data
-file_path = 'C:/Users\Kaspersky/Downloads/drive-download-20220218T092015Z-001/combined_data.csv'
+file_path = 'C:/Users/Kaspersky/Downloads/drive-download-20220218T092015Z-001/combined_data.csv'
 df = pd.read_csv(file_path)
 df.head(5)
 df.info()
