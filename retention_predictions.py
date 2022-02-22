@@ -175,8 +175,7 @@ feature_list = list(feature_df.columns)
 feature= np.array(feature_df)
 
 #Baseline Logistic Model
-feature_train, feature_test, label_train, label_test = train_test_split(feature, label,
-                                                                        test_size = 0.2, random_state= 42)
+feature_train, feature_test, label_train, label_test = train_test_split(feature, label,test_size = 0.2, random_state= 42)
 
 #Instantiate model with 1000 decision trees
 rf = RandomForestClassifier(n_estimators = 1000, random_state = 42)
