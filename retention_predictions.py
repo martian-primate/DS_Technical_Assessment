@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 #Cross validation
-from sklearn.model_selection import KFlold, StratifiedKFold, cross_val_score, GridSearchCV
+from sklearn.model_selection import KFold, StratifiedKFold, cross_val_score, GridSearchCV
 
 #ensemble methods
 from sklearn import linear_model, tree, ensemble, svm
