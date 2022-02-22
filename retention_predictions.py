@@ -23,7 +23,7 @@ from sklearn.model_selection import KFold, StratifiedKFold, cross_val_score, Gri
 from sklearn import linear_model, tree, ensemble, svm
 
 #gradient coost classifier
-from sklearn.ensemble import GradientBoostingClass
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 
 #Metrics
