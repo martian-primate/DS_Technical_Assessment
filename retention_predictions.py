@@ -40,7 +40,7 @@ def missing_value(dataframe):
     if dataframe.isnull().values.any():
         print(dataframe.isnull().sum())
     else:
-        print('No missing valuse')
+        print('No missing values')
 missing_value(df)
 
 #Continous variables
